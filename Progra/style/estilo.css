@@ -1,0 +1,58 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #95a8fb 0%, #c79fee 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.tarjeta {
+    background-color: rgb(144, 236, 144);
+    width: 350px;
+    border-radius: 20px;
+    padding: 40px 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.nombre {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #ff4d00;
+    padding-bottom: 15px;
+}
+
+.titulo {
+    color: #000000;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.descripcion {
+    color: #34495e;
+    text-align: justify;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.contacto {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 12px;
+    border-left: 5px solid #3498db;
+}
+
+.contacto p {
+    margin: 10px 0;
+    color: #2c3e50;
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
